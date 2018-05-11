@@ -1,0 +1,15 @@
+.env
+*.DS_Store
+db/mysql/ibtmp1
+*.pid
+db/mysql/ib_logfile0
+db/mysql/ibdata1
+db/mysql/ibtmp1
+db/mysql/aria_log.00000001
+db/mysql/ib_buffer_pool
+db/mysql/ib_logfile0
+db/mysql/tc.log
+wordpress/wp-content/uploads
+wordpress/wp-content/wp-config.hp
+wordpress/wp-config.hp
+wordpress/wp-content/cache

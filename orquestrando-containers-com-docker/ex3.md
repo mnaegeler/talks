@@ -1,6 +1,7 @@
 # Exemplo 3
 
-docker run -d -P -e AUTHOR="andreleoni" andreleoni/imagem
+docker run -d -P dockersamples/static-site
+
 
 
 
