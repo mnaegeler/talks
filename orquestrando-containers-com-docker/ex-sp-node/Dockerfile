@@ -1,0 +1,13 @@
+FROM node
+
+ENV INSTALL_PATH /var/www
+
+RUN mkdir -p $INSTALL_PATH
+
+WORKDIR $INSTALL_PATH
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
